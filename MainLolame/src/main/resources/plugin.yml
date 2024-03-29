@@ -1,0 +1,9 @@
+name: MainLolame
+version: '${project.version}'
+main: p.mainlolame.MainLolame
+author: Spinnin34
+commands:
+  numero:
+    usage: /numero <numero> [jugador]
+    description: Pon numero a los jugadores
+    permission: lolame.admin.numero
